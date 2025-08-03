@@ -1,3 +1,3 @@
 # habit_tracker
 
-A new Flutter project.
+An app to track your daily habits and routines.
