@@ -75,10 +75,83 @@ class _HomePageState extends State<HomePage> {
   // Método para marcar un hábito como completado o no
   void checkHabitOnOff(bool? value, Habit habit) {
     // Actualizar el estado del hábito en la base de datos
-    if( value != null) {
+    if (value != null) {
       context.read<HabitDatabase>().updateHabitCompletion(habit.id, value);
     }
   }
+
+  // Método para editar un hábito
+  void editHabitBox(Habit habit){
+    _habitController.text = habit.name;
+
+    showAdaptiveDialog(context: context, builder: (context) => AlertDialog.adaptive(
+      content: TextField(
+        controller: _habitController,
+        decoration: const InputDecoration(labelText: 'Editar Hábito'),
+      ),
+      actions: [
+        //Boton de cancelar
+        MaterialButton(
+          onPressed: () {
+            Navigator.of(context).pop();
+            _habitController.clear();
+          },
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8.0),
+          ),
+          child: const Text('Cancelar'),
+        ),
+        //Boton de guardar
+        MaterialButton(
+          onPressed: () {
+            //Actualizar el nombre del hábito en la base de datos
+            context.read<HabitDatabase>().updateHabitName(habit.id, _habitController.text.trim());
+            Navigator.of(context).pop();
+            _habitController.clear();
+          },
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8.0),
+          ),
+          child: const Text('Guardar'),
+        ),
+      ],
+    ));
+  }
+
+  // Metodo para eliminar un hábito
+  void deleteHabit(Habit habit) {
+    showAdaptiveDialog(
+      context: context,
+      builder: (context) => AlertDialog.adaptive(
+        title: const Text('Eliminar Hábito'),
+        content: const Text('¿Estás seguro de que quieres eliminar este hábito?'),
+        actions: [
+          // Botón de cancelar
+          MaterialButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+            child: const Text('Cancelar'),
+          ),
+          // Botón de eliminar
+          MaterialButton(
+            onPressed: () {
+              context.read<HabitDatabase>().deleteHabit(habit.id);
+              Navigator.of(context).pop();
+            },
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(8.0),
+            ),
+            child: const Text('Eliminar'),
+          ),
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -125,7 +198,16 @@ class _HomePageState extends State<HomePage> {
 
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 5.0),
-          child: HabitTile(isCompleted: isCompletedToday, text: habit.name, onChanged: (value) => checkHabitOnOff(value, habit)),
+          child: HabitTile(
+            isCompleted: isCompletedToday,
+            text: habit.name,
+            onChanged: (value) => checkHabitOnOff(value, habit),
+            // Funciones para editar y eliminar el hábito
+            // Editar el hábito
+            editHabit: (context) => editHabitBox(habit),
+            // Eliminar el hábito
+            deleteHabit: (context) => deleteHabit(habit),
+          ),
         );
       },
     );

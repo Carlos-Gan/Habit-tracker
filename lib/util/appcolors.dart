@@ -19,4 +19,6 @@ class DarkColors {
 
 class AppColors {
   static Color checkColor = Colors.green.shade700; // Color para el checkbox
+  static Color editColor = Colors.yellow.shade700; // Color para el botón de editar
+  static Color deleteColor = Colors.red.shade700; // Color para el botón de eliminar
 }
