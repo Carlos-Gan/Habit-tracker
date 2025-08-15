@@ -26,4 +26,12 @@ class ThemeProvider extends ChangeNotifier {
       themeData = lightMode; // Cambiar a modo claro
     }
   }
+  //Booleano para mostrar el texto en el HeatMap
+  bool _showHeatMapText = false;
+  bool get showHeatMapText => _showHeatMapText;
+  //Cambiar el estado del texto en el HeatMap
+  void toggleHeatMapText() {
+    _showHeatMapText = !_showHeatMapText;
+    notifyListeners(); // Notificar a los oyentes que el estado ha cambiado
+  }
 }

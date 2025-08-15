@@ -7,6 +7,7 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //final localizations = AppLocalizations.of(context)!;
     return Drawer(
       child: ListView(
         padding: EdgeInsets.zero,
@@ -25,23 +26,42 @@ class MyDrawer extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            child: Column(
               children: [
-                const Text('Dark Mode'),
-                const Spacer(),
-                // Switch para cambiar el tema
-                Switch(
-                  value: Provider.of<ThemeProvider>(context).isDarkMode,
-                  onChanged: (value) {
-                    Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
-                  },
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text("Modo oscuro"),
+                    const Spacer(),
+                    // Switch para cambiar el tema
+                    Switch(
+                      value: Provider.of<ThemeProvider>(context).isDarkMode,
+                      onChanged: (value) {
+                        Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
+                      },
+                    ),
+                  ],
+                ),
+                const SizedBox(height: 10),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Text('Mostrar texto en el HeatMap'),
+                    const Spacer(),
+                    // Switch para mostrar el texto en el HeatMap
+                    Switch(
+                      value: Provider.of<ThemeProvider>(context).showHeatMapText,
+                      onChanged: (value) {
+                        Provider.of<ThemeProvider>(context, listen: false).toggleHeatMapText();
+                      },
+                    ),
+                  ],
                 ),
               ],
             ),
           ),
           ListTile(
-            title: const Text('About'),
+            title: const Text('Acerca de'),
             onTap: () {
               // Show about dialog
             },
