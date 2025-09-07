@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
   void checkHabitOnOff(bool? value, Habit habit) {
     // Actualizar el estado del hábito en la base de datos
     if (value != null) {
-      context.read<HabitDatabase>().updateHabitCompletion(habit.id, value);
+      context.read<HabitDatabase>().updateHabitCompletion(habit.id!, value);
     }
   }
 
@@ -110,7 +110,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () {
                   //Actualizar el nombre del hábito en la base de datos
                   context.read<HabitDatabase>().updateHabitName(
-                    habit.id,
+                    habit.id!,
                     _habitController.text.trim(),
                   );
                   Navigator.of(context).pop();
@@ -150,7 +150,7 @@ class _HomePageState extends State<HomePage> {
               // Botón de eliminar
               MaterialButton(
                 onPressed: () {
-                  context.read<HabitDatabase>().deleteHabit(habit.id);
+                  context.read<HabitDatabase>().deleteHabit(habit.id!);
                   Navigator.of(context).pop();
                 },
                 shape: RoundedRectangleBorder(

@@ -1,0 +1,41 @@
+com.gamco.habit_tracker.app-core-1.10.1-0 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\1291eb150792ececbef3fdc1aa66c534\transformed\core-1.10.1\res
+com.gamco.habit_tracker.app-jetified-activity-1.8.1-1 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\13dd610fda78ecd8ad3daad9b8195d7e\transformed\jetified-activity-1.8.1\res
+com.gamco.habit_tracker.app-lifecycle-viewmodel-2.7.0-2 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\1b91be3af319ede480d7185430690ee1\transformed\lifecycle-viewmodel-2.7.0\res
+com.gamco.habit_tracker.app-jetified-core-ktx-1.10.1-3 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\217fb3802019cd6b32e8ed2614a8ae9e\transformed\jetified-core-ktx-1.10.1\res
+com.gamco.habit_tracker.app-jetified-tracing-1.2.0-4 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\285b6d6abe2dd4ba9515886e610a7341\transformed\jetified-tracing-1.2.0\res
+com.gamco.habit_tracker.app-jetified-emoji2-views-helper-1.2.0-5 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\2899c534f3de5608a8a60403e44e6ec5\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.gamco.habit_tracker.app-material-1.9.0-6 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\32ab9cb8ffcee4e4fe0fbf0c8c5b6afd\transformed\material-1.9.0\res
+com.gamco.habit_tracker.app-recyclerview-1.1.0-7 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\378ea1994e3598d3fb5f44e10e5e1679\transformed\recyclerview-1.1.0\res
+com.gamco.habit_tracker.app-jetified-core-1.0.0-8 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\47506b70b93177473c53f4d5d7e77c91\transformed\jetified-core-1.0.0\res
+com.gamco.habit_tracker.app-transition-1.2.0-9 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\4b173e52a1b053eab8a239f9d528c636\transformed\transition-1.2.0\res
+com.gamco.habit_tracker.app-jetified-window-1.2.0-10 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\res
+com.gamco.habit_tracker.app-fragment-1.7.1-11 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\55520e4df2220e27f13f0bbb7467d11a\transformed\fragment-1.7.1\res
+com.gamco.habit_tracker.app-jetified-profileinstaller-1.3.1-12 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\5f7dcf6815bacc3ae7f099ba801348de\transformed\jetified-profileinstaller-1.3.1\res
+com.gamco.habit_tracker.app-appcompat-1.6.1-13 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\67e431d42222568371fff0afd22bbdc6\transformed\appcompat-1.6.1\res
+com.gamco.habit_tracker.app-drawerlayout-1.1.1-14 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\9967797afdd90cde852a608be4a71bf1\transformed\drawerlayout-1.1.1\res
+com.gamco.habit_tracker.app-jetified-appcompat-resources-1.6.1-15 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\a12a090674da1baef97900c09c2e9654\transformed\jetified-appcompat-resources-1.6.1\res
+com.gamco.habit_tracker.app-jetified-savedstate-1.2.1-16 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\b3d51a44ab6b56289d4858158a1ad6dd\transformed\jetified-savedstate-1.2.1\res
+com.gamco.habit_tracker.app-lifecycle-runtime-2.7.0-17 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\c092edbccc16347970ed4f22e8da111a\transformed\lifecycle-runtime-2.7.0\res
+com.gamco.habit_tracker.app-jetified-window-java-1.2.0-18 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\c1f85211ae6978d0218d51595a7f7e62\transformed\jetified-window-java-1.2.0\res
+com.gamco.habit_tracker.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-19 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\c7156a54e8f0502a1f8f57797d8b3e6e\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+com.gamco.habit_tracker.app-coordinatorlayout-1.1.0-20 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\c9ca8a45334a59e7b1dab4e619a1512f\transformed\coordinatorlayout-1.1.0\res
+com.gamco.habit_tracker.app-jetified-emoji2-1.2.0-21 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\d221757f531c672c2df2db4ebaa2cbf1\transformed\jetified-emoji2-1.2.0\res
+com.gamco.habit_tracker.app-jetified-viewpager2-1.0.0-22 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\d8d2fedd17fffc12839dcc9cce6d60ff\transformed\jetified-viewpager2-1.0.0\res
+com.gamco.habit_tracker.app-jetified-startup-runtime-1.1.1-23 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\e0d9d3675465ff69d847e2f781f20c61\transformed\jetified-startup-runtime-1.1.1\res
+com.gamco.habit_tracker.app-lifecycle-livedata-2.7.0-24 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\e0eede8414d1ee0e5f236daeb1a2e59a\transformed\lifecycle-livedata-2.7.0\res
+com.gamco.habit_tracker.app-lifecycle-livedata-core-2.7.0-25 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\e2e21678784b3eef6b33f576b1691a56\transformed\lifecycle-livedata-core-2.7.0\res
+com.gamco.habit_tracker.app-jetified-lifecycle-process-2.7.0-26 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\e80aa748ff6540407d8dba61c0d945fe\transformed\jetified-lifecycle-process-2.7.0\res
+com.gamco.habit_tracker.app-jetified-lifecycle-livedata-core-ktx-2.7.0-27 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\ebeb29d7113d60e59d5e0acf92f847f3\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+com.gamco.habit_tracker.app-cardview-1.0.0-28 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\eea6bc447011882d6b95909c5f8bbb72\transformed\cardview-1.0.0\res
+com.gamco.habit_tracker.app-jetified-annotation-experimental-1.4.0-29 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\f09a22cdd213028a38958888c7d16e20\transformed\jetified-annotation-experimental-1.4.0\res
+com.gamco.habit_tracker.app-constraintlayout-2.1.4-30 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\fafc57e46ce6619de1b1da19701dac46\transformed\constraintlayout-2.1.4\res
+com.gamco.habit_tracker.app-core-runtime-2.2.0-31 C:\Users\Carlo\.gradle\caches\8.10.2\transforms\ff849810dfe34a0ab790c402787c149e\transformed\core-runtime-2.2.0\res
+com.gamco.habit_tracker.app-release-32 C:\Users\Carlo\AppData\Local\Pub\Cache\git\isar_flutter_libs-59103190aa2ac03041d61ad6d127b540be079ec8\android\build\intermediates\packaged_res\release\packageReleaseResources
+com.gamco.habit_tracker.app-release-33 C:\Users\Carlo\AppData\Local\Pub\Cache\hosted\pub.dev\path_provider_android-2.2.17\android\build\intermediates\packaged_res\release\packageReleaseResources
+com.gamco.habit_tracker.app-pngs-34 P:\Coding\Flutter\Habit Tracker\habit_tracker\android\app\build\generated\res\pngs\release
+com.gamco.habit_tracker.app-resValues-35 P:\Coding\Flutter\Habit Tracker\habit_tracker\android\app\build\generated\res\resValues\release
+com.gamco.habit_tracker.app-packageReleaseResources-36 P:\Coding\Flutter\Habit Tracker\habit_tracker\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.gamco.habit_tracker.app-packageReleaseResources-37 P:\Coding\Flutter\Habit Tracker\habit_tracker\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.gamco.habit_tracker.app-release-38 P:\Coding\Flutter\Habit Tracker\habit_tracker\android\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.gamco.habit_tracker.app-main-39 P:\Coding\Flutter\Habit Tracker\habit_tracker\android\app\src\main\res
+com.gamco.habit_tracker.app-release-40 P:\Coding\Flutter\Habit Tracker\habit_tracker\android\app\src\release\res

@@ -1,0 +1,7 @@
+#Thu Aug 14 22:39:33 CST 2025
+base.0=P\:\\Coding\\Flutter\\Habit Tracker\\habit_tracker\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+base.1=P\:\\Coding\\Flutter\\Habit Tracker\\habit_tracker\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
